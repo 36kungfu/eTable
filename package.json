@@ -4,7 +4,7 @@
   "homepage": "https://github.com/36kungfu/eTable#readme",
   "license": "GPL-3.0",
   "main": "index.js",
-  "name": "e-table-backend",
+  "name": "e-table",
   "version": "1.0.0",
   "bugs": {
     "url": "https://github.com/36kungfu/eTable/issues"
