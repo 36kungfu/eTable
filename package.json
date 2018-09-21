@@ -1,0 +1,39 @@
+{
+  "author": "Gucode <36kungfu@gmail.com>",
+  "description": "eTable",
+  "homepage": "https://github.com/36kungfu/eTable#readme",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "e-table-backend",
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/36kungfu/eTable/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.288.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.15.2",
+    "knex": "^0.15.2",
+    "lodash": "^4.17.10",
+    "messaging-api-line": "^0.7.4",
+    "multer": "^1.3.1",
+    "multer-s3": "^2.7.0",
+    "pg": "^7.4.3"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "knexjs",
+    "postgres"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/36kungfu/eTable.git"
+  },
+  "scripts": {
+    "start": "node backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
